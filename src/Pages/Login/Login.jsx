@@ -26,12 +26,20 @@ function Login() {
       </form>
       <div className="max-w-[500px] mx-auto">
         <div className="text-center m-10">
-          <button className="w-[250px] h-[54px] bg-[#FF1616] rounded-3xl pb-2 pt-2 text-white hover:bg-[#F1E1E187] hover:text-[#FF1616] mb-8">
-            {" "}
-            Login
-          </button>
+          <Link to="/home">
+            <button className="w-[250px] h-[54px] bg-[#FF1616] rounded-3xl pb-2 pt-2 text-white hover:bg-[#F1E1E187] hover:text-[#FF1616] mb-8">
+              {" "}
+              Login
+            </button>
+          </Link>
           <p className="mb-3">Forgot Password?</p>
-          <p>Need an account? <span className="text-[#FF1616]"> <Link to="/sign-up">Signup</Link></span></p>
+          <p>
+            Need an account?{" "}
+            <span className="text-[#FF1616]">
+              {" "}
+              <Link to="/sign-up">Signup</Link>
+            </span>
+          </p>
 
           <div className="flex gap-5 m-16 px-[55px]">
             <input type="checkbox" />
