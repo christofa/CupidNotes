@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="max-w-[1000px] mx-auto">
+    <div className="max-w-[700px] md:max-w-[1000px] mx-auto">
       <Navbar2 />
-      <div className="flex flex-col max-w-[600px] mx-auto mt-5">
+      <div className="flex flex-col max-w-[350px] md:max-w-[600px] mx-auto mt-5">
         <input
           type="text"
           placeholder="Title"
