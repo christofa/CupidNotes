@@ -26,7 +26,7 @@ function Home() {
           className="text-center bg-[#F1E1E1] h-[30px] rounded-3xl p-5 mt-5 mb-7"
         />
         <div className="flex justify-center">
-          <Link to="/success">
+          <Link to="/credentials">
             <button className="flex justify-center items-center gap-2 w-[200px] h-[60px] bg-[#FF1616] rounded-[35px] pb-2 pt-2 text-white hover:bg-[#F1E1E1] hover:text-[#FF1616]">
               Spread Love{" "}
               <span>

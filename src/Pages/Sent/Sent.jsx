@@ -4,8 +4,11 @@ import { FaRepeat } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 function Sent() {
+  const date = new Date();
+  const showTime = date.getHours() + ":" + date.getMinutes();
+
   return (
-    <div className="max-w-[1000px] mx-auto">
+    <div className="max-w-[700px] md:max-w-[1000px] mx-auto">
       <Navbar />
       <div className="max-w-[600px] mx-auto mt-20">
         <div className="flex justify-center mt-20 mb-10">
@@ -14,7 +17,7 @@ function Sent() {
         <p className="flex justify-center mb-20 text-2xl text-[#FF1616] font-semibold">
           Message Delivered
         </p>
-        <p className="flex justify-center font-bold mb-3">10:00</p>
+        <p className="flex justify-center font-bold mb-3">{showTime}</p>
 
         <div className="flex justify-center">
           <Link to="/home">

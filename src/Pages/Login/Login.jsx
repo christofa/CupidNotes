@@ -17,7 +17,7 @@ function Login() {
   console.log(userName);
   console.log(password);
   return (
-    <div className="max-w-[1000px] mx-auto">
+    <div className="max-w-[700px] md:max-w-[1000px] mx-auto">
       <Navbar />
       <form
         action=""
@@ -51,7 +51,9 @@ function Login() {
               Login
             </button>
           </Link>
+          <Link to="/reset">
           <p className="mb-3">Forgot Password?</p>
+          </Link>
           <p>
             Need an account?{" "}
             <span className="text-[#FF1616]">
