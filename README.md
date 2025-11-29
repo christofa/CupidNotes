@@ -21,3 +21,7 @@ Messages are delivered through WhatsApp or Email, keeping it simple and exciting
 	•	Frontend: React, Vite, TailwindCSS
 	•	Backend: Node.js (Express if used)
 	•	Integrations: WhatsApp API, Email/SMTP
+
+## 📌 About
+
+CupidNote helps people express feelings anonymously during Valentine’s season — fun, simple, and full of mystery.
