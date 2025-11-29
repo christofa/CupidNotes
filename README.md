@@ -1,8 +1,23 @@
-# CupidNotes
+# ❤️ CupidNote
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Anonymous Love Messaging Web App
 
-Currently, two official plugins are available:
+CupidNote is a fun, anonymous messaging platform made for Valentine’s Day.
+Users can send sweet or flirty messages anonymously with a small hint about who sent it — without revealing their identity.
+Messages are delivered through WhatsApp or Email, keeping it simple and exciting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⸻
+
+## ✨ Features
+	•	Send anonymous messages
+	•	Add subtle hints (identity stays hidden)
+	•	Deliver via WhatsApp or Email
+	•	Fast and responsive UI (React + Vite + TailwindCSS)
+	•	Secure Node.js backend
+
+⸻
+
+## 🛠️ Tech Stack
+	•	Frontend: React, Vite, TailwindCSS
+	•	Backend: Node.js (Express if used)
+	•	Integrations: WhatsApp API, Email/SMTP
